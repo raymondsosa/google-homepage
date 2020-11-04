@@ -1,0 +1,10 @@
+.navbar-left li {
+    display: inline-block;
+    text-align: left;
+}
+
+.navbar-right li {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
