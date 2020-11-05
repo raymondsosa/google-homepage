@@ -1,16 +1,35 @@
-#navbar {
+.navbar {
     
+    padding: 15px
 }
 
-.navbar-left li {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
 }
 
-.navbar-right li {
-    display: inline-block;
-    text-align: right;
+.navbar a {
+    display: block;
+    width: 60px;
+    color: grey;
+    text-decoration: none;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.navbar-left ul li {
+    float: left;
+}
+
+.navbar-right ul li {
     float: right;
-    vertical-align: middle;
+}
+
+#grey-squares {
+    max-height: 44%;
+    max-width: 44%;
 }
