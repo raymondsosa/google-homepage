@@ -1,6 +1,7 @@
 .navbar {
-    
+    background-color: honeydew;
     padding: 15px
+
 }
 
 .navbar ul {
@@ -23,13 +24,24 @@
 
 .navbar-left ul li {
     float: left;
+    text-align: center;
 }
 
 .navbar-right ul li {
     float: right;
+    text-align: center;
 }
 
 #grey-squares {
-    max-height: 44%;
-    max-width: 44%;
+    max-height: 35%;
+    max-width: 35%;
 }
+
+.footbar {
+    background-color: honeydew;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
