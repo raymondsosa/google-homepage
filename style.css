@@ -1,6 +1,5 @@
 .navbar {
     padding: 15px;
-    background-color: honeydew;
 }
 
 .navbar ul {
@@ -23,26 +22,48 @@
 
 .navbar-left ul li {
     float: left;
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 
 .navbar-right ul li {
     float: right;
-    font-size: small;
+    font-size: medium;
     text-align: center;
 }
 
 #grey-squares {
-    width: 40%;
+    width: 30%;
     height: auto;
     display: inline-block;
     position: relative;
-    top: -3px;
+    
 }
 
-#grey-squares-a {
-    padding-top: -3px;
+.main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#google-logo #google-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#google-logo {
+    max-width: 80%;
+}
+
+#text-input {
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    left: 0%;
 }
 
 .footbar {
